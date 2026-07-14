@@ -418,7 +418,7 @@ def interactive_patch():
         print(f"\n> {cheat['name']}")
         apply_cheat(root, cheat)
 
-    tree.write(LOCAL_SAVE, encoding="utf-8", xml_declaration=True)
+    tree.write(LOCAL_SAVE, encoding="utf-8", xml_declaration=False)
     print(f"\nOK : {LOCAL_SAVE} mis a jour.")
 
 
